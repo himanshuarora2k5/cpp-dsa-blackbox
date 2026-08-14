@@ -1,0 +1,2 @@
+- `vector.size();` //gets the length of the vector
+- `return {};`  //returns an empty array if loop fails
