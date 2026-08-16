@@ -5,13 +5,13 @@ public:
     vector<int> sortedSquares(vector<int>& nums) {
         int n = nums.size();
         vector<int> neg;
-        int a = neg.size;
+        int a = neg.size();
         vector<int> pos;
         int b = pos.size();
         
         for(int i = 0; i < n; i++){
             if(nums[i] < 0){
-                neg.psuh_back(nums[i]);
+                neg.push_back(nums[i]);
             }
             else{
                 pos.push_back(nums[i]);
